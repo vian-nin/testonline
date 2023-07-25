@@ -1744,9 +1744,6 @@ padding-bottom: 30px;
     font-size: 16px;
   }
 
-.start-page .logogram {
-  padding: 0px 20px;
-}
 
 .image-container {
   height: 100%; /* Ganti dengan tinggi yang diinginkan */
@@ -1985,46 +1982,64 @@ input:-internal-autofill-selected {
   font-size: 14px;
 }
 
-.start-center {
+/* .start-center {
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+
+.start-wraper-2 {
+    background-image: url("../img/bg-paralax.png");
+    height: 100%;
+    width: 100%;
+    order: 2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 11111100;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    overflow: auto;
 }
 
 .start-wraper {
-  /* background-image: url("../img/cover-bg.jpg"); */
-  background-position: 45%;
-  height: 100%;
-  width: 100%;
+  background-image: url("../img/cover-bg.jpg");
+  /* background-position: 45%; */
+  height: 100vh;
+  /* width: 100%; */
   order: 2;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   z-index: 11111100;
-  /* -webkit-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; */
+  transition: all 0.5s ease-in-out;
   overflow: auto;
 }
 
 
-/* .start-page {
-  height: 100%;
-} */
+.containeritems-center {
+text-align: center;
+}
 
 
-.start-page .start-btn
+
+/* .start-page .start-btn
 {
     z-index: 2;
     padding: 0;
     color: #fff;
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     text-align: center;
    
-}
+} */
 
 .start-page .start-btn a
 {
@@ -2035,10 +2050,10 @@ input:-internal-autofill-selected {
 
 .start-page .logogram
 {
-   text-align: center;
-    z-index: 2;
-    width: 100%;
-
+  padding-top: 50px;
+  text-align: center;
+  z-index: 2;
+  width: 100%;
 }
 
 .logogram img {
